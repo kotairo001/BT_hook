@@ -6,6 +6,29 @@
   height: 40vmin;
   pointer-events: none;
 }
+.data {
+  width: 30%;
+  margin: auto;
+  /* border: 1px solid black; */
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.data table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.data tr{
+  border: 1px solid black;
+}
+.data th td{
+  border: 1px solid black;
+}
+.data button {
+margin: 10px;
+  
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
